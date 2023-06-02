@@ -8,7 +8,7 @@ jobs:
   deployment1:
     runs-on: ubuntu-latest
     environment: 
-      name: production
+      name: staging
     steps:
       - name: Run a multi-line script
         run: |
